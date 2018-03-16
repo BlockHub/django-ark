@@ -1,6 +1,6 @@
 from django.conf import settings
 
-db = settings.DATABASES[[settings.ARK_DB_NAME]]
+db = settings.DATABASES[settings.ARK_DB_NAME]
 
 
 class ArkRouter:
