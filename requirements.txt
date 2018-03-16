@@ -20,7 +20,7 @@ ledgerblue==0.1.16
 Pillow==5.0.0
 promise==2.1
 protobuf==3.5.2
-psycopg2==2.7.4
+psycopg2-binary==2.7.4
 pycparser==2.18
 pycrypto==2.6.1
 PyNaCl==1.2.1
