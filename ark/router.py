@@ -1,6 +1,6 @@
 from django.conf import settings
 
-db = settings.DATABASES[settings.ARK_DB_NAME]
+ark_db = settings.DATABASES[settings.ARK_DB_NAME]
 
 
 class ArkRouter:
@@ -13,7 +13,7 @@ class ArkRouter:
         Attempts to read ark_app models go to ARK_DB_NAME.
         """
         if model._meta.app_label == 'ark':
-            return db['NAME']
+            return ark_db['NAME']
         return None
 
     def db_for_write(self, model, **hints):
@@ -21,7 +21,7 @@ class ArkRouter:
         Attempts to write ark_app models go to ARK_DB_NAME.
         """
         if model._meta.app_label == 'ark':
-            return db['NAME']
+            return ark_db['NAME']
         return None
 
     def allow_relation(self, obj1, obj2, **hints):
@@ -39,5 +39,5 @@ class ArkRouter:
         database.
         """
         if app_label == 'ark':
-            return db == db['NAME']
+            return db == ark_db['NAME']
         return None
