@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-ark',
-    version='0.1.0',
+    version='0.1.1',
     packages=['ark', 'ark.migrations'],
     url='https://github.com/BlockHub/django-ark',
     license='MIT',
