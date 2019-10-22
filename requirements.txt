@@ -53,7 +53,7 @@ ledgerblue==0.1.16
 MarkupSafe==1.0
 Naked==0.1.31
 oauthlib==2.0.6
-Pillow==5.0.0
+Pillow==6.2.0
 pkginfo==1.4.2
 pluggy==0.6.0
 promise==2.1
