@@ -46,7 +46,7 @@ hyperlink==18.0.0
 idna==2.6
 incremental==17.5.0
 iso8601==0.1.12
-Jinja2==2.10
+Jinja2==2.11.3
 jsonfield==2.0.2
 kombu==4.1.0
 ledgerblue==0.1.16
