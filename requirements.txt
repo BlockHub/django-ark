@@ -30,7 +30,7 @@ django-extensions==1.9.9
 django-filter==1.1.0
 django-rest==0.0.1
 django-rest-auth==0.9.3
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docopt==0.6.2
 dpostools==0.0.19
