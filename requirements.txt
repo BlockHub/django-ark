@@ -15,7 +15,7 @@ constantly==15.1.0
 cryptography==2.1.4
 dateparser==0.7.0
 defusedxml==0.5.0
-Django==2.0.3
+Django==2.2.24
 django-allauth==0.35.0
 django-annoying==0.10.4
 django-appconf==1.0.2
