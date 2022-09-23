@@ -57,7 +57,7 @@ Pillow==5.0.0
 pkginfo==1.4.2
 pluggy==0.6.0
 promise==2.1
-protobuf==3.5.2
+protobuf==3.18.3
 psycopg2==2.7.4
 psycopg2-binary==2.7.4
 py==1.5.2
